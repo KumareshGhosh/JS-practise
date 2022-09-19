@@ -33,7 +33,7 @@ const newGame = function () {
 newGame(); //we have to call this function unlike other below functions where JS calling the function
 //whenever user clicked any button
 
-//creating swutch player function
+//creating switch player function
 const switchPlayer = function () {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
   activePlayer = activePlayer === 0 ? 1 : 0; //swtiching current player
